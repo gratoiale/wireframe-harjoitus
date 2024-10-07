@@ -24,3 +24,6 @@ Apuna kannattaa käyttää css:n [https://developer.mozilla.org/en-US/docs/Learn
 
 HTML:ää ja CSS:ää voi kerrata myös [https://developer.mozilla.org](mdn:n) puolelta.
 
+### Ohjeet
+
+* Flexbox:in käyttöä voi harjoitella mm. [https://flexboxfroggy.com/#fi](flexbox froggy) -pelin avulla.
