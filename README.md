@@ -2,7 +2,7 @@
 
 ## Tehtävä
 
-1. Tee wireframe-versio [https://yle.fi](yle.fi)-sivuston etusivusta.
+1. Tee wireframe-versio [yle.fi](https://yle.fi)-sivuston etusivusta.
 
 Tarkoituksena on opetella tekemään tarkkaa työtä käyttäen pelkkää css:ää, ilman apukirjastoja.
 
@@ -20,10 +20,10 @@ Luo wireframe-versio ylen etusivusta.
 
 Käytä vain html:ää ja css:ää. Älä käytä kirjastoja kuten tailwind:iä.
 
-Apuna kannattaa käyttää css:n [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox](flexbox)-sääntöjä.
+Apuna kannattaa käyttää css:n [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)-sääntöjä.
 
-HTML:ää ja CSS:ää voi kerrata myös [https://developer.mozilla.org](mdn:n) puolelta.
+HTML:ää ja CSS:ää voi kerrata myös [mdn:n](https://developer.mozilla.org) puolelta.
 
 ### Ohjeet
 
-* Flexbox:in käyttöä voi harjoitella mm. [https://flexboxfroggy.com/#fi](flexbox froggy) -pelin avulla.
+* Flexbox:in käyttöä voi harjoitella mm. [flexbox froggy](https://flexboxfroggy.com/#fi) -pelin avulla.
