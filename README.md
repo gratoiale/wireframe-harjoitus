@@ -27,3 +27,18 @@ HTML:ää ja CSS:ää voi kerrata myös [mdn:n](https://developer.mozilla.org) p
 ### Ohjeet
 
 * Flexbox:in käyttöä voi harjoitella mm. [flexbox froggy](https://flexboxfroggy.com/#fi) -pelin avulla.
+* Hyvä flexbox tutoriaali on Smashing Magazinen artikkeli ["Everything you need to know about alignment in flexbox"](https://www.smashingmagazine.com/2018/08/flexbox-alignment/).
+
+
+### Älä käytä
+
+* Älä käytä css:n `float`-sääntöä. Float on pääasiassa vanhentunut sääntö, jonka käytön on korvannut flexbox.
+* Älä käytä html:n elementtiä `br`. `br`-elementin käytön on pääasiallisesti korvannut css-tyylitiedostot.
+
+### Hyödyllisiä html-elementtejä ja css-sääntöjä
+
+css-sääntöjä:
+
+* [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+* [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+
