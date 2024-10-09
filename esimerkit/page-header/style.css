@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+/*
+valitsin1, valitsin2 {
+    säännön-nimi: säännön arvot; 
+    säännön-nimi: säännön arvot; 
+    säännön-nimi: säännön arvot; 
+    säännön-nimi: säännön arvot; 
+}
+*/
+
+#nav {
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav div {
+    /* background-color: aqua; */
+    /* margin: 0; */
+}
+
+.nav-vasen,
+.nav-oikea {
+    display: flex;
+    align-items: center;
+}
+
+.nav-vasen > .nav-item,
+.nav-oikea > .nav-item {
+    margin-right: 28px;
+}
+
+.nav-item {
+    margin: 0 7px 0 0;
+    /* margin-right: 7px; */
+}
+
+.nav-item.with-icon::after {
+    content: "?";
+    margin-left: 7px;
+    border: solid 1px black;
+    width: 28px;
+    height: 28px;
+}
+
+.btn {
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 60px;
+    padding: 7px;
+    color: white;
+}
+
+#sivun-otsikko {
+    text-transform: uppercase;
+}
+
+/* header,
+#nav,
+header#nav,
+.headeri,
+header.headeri,
+header#nav.headeri {
+    margin: 0;
+} */
+
+/* header {
+    background-color: blue;
+}
+#nav {
+    background-color: red !important; 
+}
+header#nav {
+    background-color: cyan;
+}
+.headeri {
+    background-color: purple;
+}
+header.headeri {
+    background-color: green;
+}
+header#nav.headeri {
+    background-color: yellowgreen;
+} */
