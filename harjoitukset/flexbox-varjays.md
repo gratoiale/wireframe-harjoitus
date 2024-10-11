@@ -43,3 +43,45 @@ Jokaisella elementillä, jolla on lapsielementtejä, pitäisi päteä seuraavat 
 * värjää elementit, joihin on asetettu `flex-direction: column` vihreäksi: `background-color: green`.
 * lisää näille elementeille musta reunus: `border: solid 1px black`.
 * lisää näille elementeille padding, jotta lapsielementtien värit eivät peitä tämän elementin taustaväriä: `padding: 14px`.
+
+#### käytä kahta luokkaa värjäämiseksi
+
+Koska samoja sääntöjä toistetaan tässä tehtävässä paljon, kannattaa käyttää kahta erillistä luokkaa, joilla määrittää elementeille värin ja `flex-direction`-arvon.
+
+Tällaiset luokat voivat olla esimerkiksi seuraavat `.rivi` ja `.sarake`-luokat:
+
+```css
+.rivi {
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+    border: solid 1px black;
+    padding: 7px;
+}
+
+.sarake {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    border: solid 1px black; 
+    padding: 7px;
+}
+```
+
+Näitä luokkia käytetään normaalisti, kuten mitä tahansa muutakin luokkaa, lisäämällä ne html-tiedostossa luokiksi elementeille:
+
+```html
+<div class="rivi">
+    <div class="sarake">sarake</div>
+    <div class="sarake">sarake</div>
+    <div class="sarake">sarake</div>
+</div>
+```
+
+#### Jokainen elementti on joko rivi tai sarake
+
+Tässä tehtävässä jokaiselle elementille `body`-elementin sisällä pitäisi määrittää `display: flex;`-sääntö, ja sitä vastaava väri. 
+
+Tämä kannattaa tehdä yllä olevia `.rivi` ja `.sarake`-luokkia käyttäen.
+
+Tällöin koko sivu värjäytyy violetiksi ja vihreäksi.
