@@ -8,17 +8,25 @@ Toteutetaan wireframe-versio verkkokauppa.com:in etusivusta siten, että:
 * värjätään elementit violetilla, joissa käytetään `flex-direction: row;` -sääntöä.
 * värjätään elementit vihreällä, joissa käytetään `flex-direction: column;` -sääntöä.
 
+Tehdään siis oheista muistuttava sivu, mutta käsivaraisen värjäyksen sijaan, tehdään värjäys html:llä ja css:llä.
+
+![värjätty sivu](../kuvat/värjäys_tapa.jpg)
+
 ## Tehtävä
 
 ### Kuvakaappaus referenssisivusta
 
-Ota [verkkokauppa.com](https://verkkokauppa.com) -sivuston etusivusta kuvakaappaus siten, että kuvassa näkyy sivun yläpalkki ja horisontaalinen tuote-esittelyosio (kuva lisätään myöhemmin).
+Ota [verkkokauppa.com](https://verkkokauppa.com) -sivuston etusivusta kuvakaappaus siten, että kuvassa näkyy sivun yläpalkki ja horisontaalinen tuote-esittelyosio alla olevan kuvan mukaisesti.
 
 Tallenna tämä referenssikuva samaan kansioon tämän tehtävän html- ja css-tiedostojen kanssa.
+
+![replikoitava näkymä verkkokauppa.com-sivustolta](../kuvat/replikoitava_sivu.jpg)
 
 ### Wireframe-sivu
 
 Tässä tehtävässä tehdyn sivun ei tarvitse muistuttaa suoraan referenssikuvaa, vaan tuottaa verkkokauppa.com:in etusivua mallintava sivu, jossa sivun elementit on värjätty kahdella värillä, sen mukaan ovatko elementin lapsielementit järjestetty riviin vai sarakkeeseen.
+
+![lopputulos](../kuvat/lopputulos.jpg)
 
 #### käyttäen `flexbox`-sääntöjä
 
