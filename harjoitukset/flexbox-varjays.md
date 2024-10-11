@@ -1,5 +1,11 @@
 # Sivu flexbox:ia käyttäen ja värjäten rivejä ja sarakkeita
 
+## Alkutyöt: kansion luonti
+
+Tee tätä tehtävää varten, tähän repositorioon, hakemisto `harjoitukset/flexbox-varjays`.
+
+Lisää kaikki tämän tehtävän aikana luomasi tiedostot edellä luotuun hakemistoon.
+
 ## Tehtävä lyhyesti
 
 Toteutetaan wireframe-versio verkkokauppa.com:in etusivusta siten, että:

@@ -10,9 +10,19 @@ Tarkoituksena on opetella tekemään tarkkaa työtä käyttäen pelkkää css:ä
 
 ### Alkuvalmistelut
 
-1. Tee oma kansio harjoitukselle kurssin kansioon: (esim. `workspace/gradia/web-kehitys-s24/harj1/`)
-2. Ota kuvakaappaus ylen etusivusta, ja tallenna kuva harjoituksen kansioon. Voit ottaa kuvakaappauksen vain näkyvästä osasta, mutta myös kokosivusta.
-3. Luo kansioon tiedostot `index.html` ja `style.css`.
+## Alkuvalmistelut: kansion luonti
+
+Tee tätä tehtävää varten, tähän repositorioon, hakemisto `harjoitukset/yle-etusivu`.
+
+Lisää kaikki tämän tehtävän aikana luomasi tiedostot edellä luotuun hakemistoon.
+
+#### Alkuvalmistelut: referenssikuvan luonti
+
+1. Ota kuvakaappaus ylen etusivusta, ja tallenna kuva harjoituksen kansioon. Voit ottaa kuvakaappauksen vain näkyvästä osasta, mutta myös kokosivusta.
+
+#### Alkuvalmistelut: tiedostojen luonti
+
+1. Luo kansioon tiedostot `index.html` ja `style.css`.
 
 ### Tehtävä
 
